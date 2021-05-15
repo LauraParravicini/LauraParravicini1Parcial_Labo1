@@ -10,5 +10,6 @@ int getFloat (float *numeroIngresado, char* mensaje, char* mensajeError);
 int isValidName(char* stringRecibido) ;
 int utn_getName(char* msg, char* msgError, int min, int max, int reintentos, char* resultado);
 int getString(char* msg, char* msgError, int min, int max, int* reintentos, char* resultado);
-
+int utn_getTelefono(char* msg, char* msgError, int minSize, int maxSize, int min, int max, int reintentos, char* input);
+int isValidTelephone(char* stringRecibido);
 #endif // UTN_H_INCLUDED

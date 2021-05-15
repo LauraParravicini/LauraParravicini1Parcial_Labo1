@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1621039135 source:c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\main.c
+	"utn.h"
+	"categoria.h"
+	"juego.h"
+	"cliente.h"
+	"alquiler.h"
+	<stdio.h>
+	<stdlib.h>
+
+1621031102 source:c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+
+1621031124 c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\utn.h
+
+1621037018 source:c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\cliente.c
+	"cliente.h"
+	"alquiler.h"
+
+1621038540 c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\cliente.h
+	<stdio.h>
+	"utn.h"
+	<string.h>
+
+1621039189 source:c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\alquiler.c
+	"alquiler.h"
+
+1621039116 c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\alquiler.h
+	"fecha.h"
+	"cliente.h"
+	"juego.h"
+	<stdio.h>
+	<stdlib.h>
+
+1621029829 c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\fecha.h
+
+1621038507 c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\categoria.h
+	<stdio.h>
+	<stdlib.h>
+
+1621039321 c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\juego.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"categoria.h"
+
+1621039151 source:c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\juego.c
+	"juego.h"
+
+1621037533 source:c:\users\usuario\desktop\utn\programacion 1\lauraparravicini1parcial_labo1\parravicini.lauraparcial1\categoria.c
+	"categoria.h"
+

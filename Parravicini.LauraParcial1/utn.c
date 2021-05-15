@@ -234,3 +234,47 @@ int isValidName(char* stringRecibido)   //si fuera un numero podrìa necesitar pa
     }
     return retorno;
 }
+
+int utn_getTelefono(char* msg, char* msgError, int minSize, int maxSize, int min, int max, int reintentos, char* input)
+{
+    int retorno=-1;
+    char bufferStr[maxSize];
+
+    if(msg!=NULL && msgError!=NULL && minSize<maxSize && min<max && reintentos>=0 && input!=NULL)
+    {
+        do
+        {
+            if(!getString(msg,msgError,minSize,maxSize,&reintentos,bufferStr)) //==0 sin errores !0
+            {
+                if(isValidTelephone(bufferStr)==1)
+                {
+                    strncpy(input,bufferStr,maxSize);
+                    retorno=0;
+                    break;
+                }
+                else
+                {
+                    printf("%s 2",msgError);
+                    reintentos--;
+                }
+            }
+        }
+        while(reintentos>=0);
+    }
+    return retorno;
+}
+
+int isValidTelephone(char* stringRecibido)
+{
+    int retorno=1;  // para las funciones isValid arranco con verdadero y cambio cuando encuentro un error
+    int i;
+    for(i=0;stringRecibido[i]!='\0';i++)
+    {
+        if((stringRecibido[i]<'0' || stringRecibido[i]>'9') && (stringRecibido[i]!='-' || stringRecibido[i]!=' '))
+        {
+            retorno=0;
+            break;
+        }
+    }
+    return retorno;
+}
